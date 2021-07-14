@@ -1,0 +1,13 @@
+index,name,url
+barbarian,Barbarian,/api/classes/barbarian
+bard,Bard,/api/classes/bard
+cleric,Cleric,/api/classes/cleric
+druid,Druid,/api/classes/druid
+fighter,Fighter,/api/classes/fighter
+monk,Monk,/api/classes/monk
+paladin,Paladin,/api/classes/paladin
+ranger,Ranger,/api/classes/ranger
+rogue,Rogue,/api/classes/rogue
+sorcerer,Sorcerer,/api/classes/sorcerer
+warlock,Warlock,/api/classes/warlock
+wizard,Wizard,/api/classes/wizard

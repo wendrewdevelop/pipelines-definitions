@@ -10,9 +10,9 @@ import pandas as pd
 def console_log(string):
     try:
         text = f'INFO: {string}. - Time {str(datetime.now())}'
-        return text.encode('utf-8')
+        print(text.encode('utf-8'))
     except Exception as error:
-        return f'ERROR: funcion {console_log.__name__} -> error -> {str(error)}'
+        print(f'ERROR: funcion {console_log.__name__} -> error -> {str(error)}')
 
 
 def github_requests(url: str):
@@ -33,7 +33,7 @@ def github_requests(url: str):
 
 def email_verifier_requests(url: str):
     """
-        get github content.
+        get e-mail verifier json.
 
         https://api.eva.pingutil.com/email?email=wendrewdevelop@gmail.com
     """
@@ -49,7 +49,7 @@ def email_verifier_requests(url: str):
 
 def dungeons_dragons_requests(url: str):
     """
-        get github content.
+        get d&d classes.
 
         https://www.dnd5eapi.co/api/classes/
     """

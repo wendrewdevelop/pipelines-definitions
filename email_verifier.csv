@@ -1,0 +1,2 @@
+status,data.email_address,data.domain,data.valid_syntax,data.disposable,data.webmail,data.deliverable,data.catch_all,data.gibberish,data.spam
+success,wendrewdevelop@gmail.com,gmail.com,True,False,True,True,False,False,False
